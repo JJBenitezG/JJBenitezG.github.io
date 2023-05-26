@@ -1,0 +1,85 @@
+html {
+    font-family:  'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table, th, td {
+    text-align: center;
+    border: 2px solid gray;
+    background-color: black;
+    width: 1300px;
+    margin: auto;
+}
+
+#h2, h3 {
+    text-align: center;
+    color: tomato;
+}
+
+p.b {
+    color: black;
+}
+
+#titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3.7rem 4rem;
+    font-size: 4rem;
+    margin: auto;
+    border: 2px solid grey;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    width: 700px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+    border: 2px solid gray;
+}
+
+.container2 {
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid gray;
+}
+
+footer {
+    background-color: black;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: dashed;
+    margin: 1rem;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
