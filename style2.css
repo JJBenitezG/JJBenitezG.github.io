@@ -1,51 +1,62 @@
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Montserrat', sans-serif;
 }
 
 body {
     margin: 0;
     background-color: #efefef;
-    background-image: url(fondo1.jpg);
+    background-image: url(../imagenes/fondo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-header {
+table, th, td {
+    text-align: center;
+    border: 2px solid gray;
     background-color: black;
-    color: white;
-    padding: 1rem 1rem;
+    width: fit-content;
+    margin: auto;
 }
 
-header h1 {
-    font-size: 4rem;
+#h2, h3 {
     text-align: center;
+    color: tomato;
+}
+
+p.b {
+    color: black;
+}
+
+#titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 3.7rem 4rem;
+    font-size: calc(2em + 3.5vw);
+    margin: auto;
+    border: 2px solid grey;
 }
 
 .container {
-    width: 400px;
-    margin: 0 auto;
-}
-
-section article {
-    transition: box-shadow 0.3s ease;
+    text-align: center;
     background-color: black;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 0.25rem 0;
-    cursor: pointer;
+    width: auto;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    padding: 1rem 1rem;
+    border: 2px solid gray;
 }
 
-section article:hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
-    border-style: ridge;
-}
-
-section article h2, section article p, a {
-    margin: 1rem;
-    color: #fff;
-    text-decoration: none;
+.container2 {
+    text-align: center;
+    background-color: black;
+    width: fit-content;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid gray;
 }
 
 footer {
@@ -59,13 +70,14 @@ footer section {
 }
 
 footer p {
-    margin: 0 auto;
+    margin: auto;
 }
 
 footer a {
     transition: color 0.3s ease;
     color: #fff;
     text-decoration: dashed;
+    margin: 1rem;
 }
 
 footer a:hover {
